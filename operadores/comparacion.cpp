@@ -3,11 +3,10 @@
  * Autor: Rodrigo Tufiño <rtufino@ups.edu.ec>
  * Fecha: 11-03-2020
  * 
- * Operadores de incremento/decreento
+ * Operadores de comparación
  * 
  */
 
-// C++ program to demonstrate working of logical operators
 #include <iostream>
 using namespace std;
 
