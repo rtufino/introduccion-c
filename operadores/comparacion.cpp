@@ -13,47 +13,27 @@ using namespace std;
 int main()
 {
     int a, b;
+    a = 3;
+    b = 5;
+    bool result;
 
-    cout << "Ingrese el valor de a: ";
-    cin >> a;
-    cout << "Ingrese el valor de b: ";
-    cin >> b;
+    result = (a == b);   // false
+    cout << "3 == 5 es " << result << endl;
 
-    // mayor que
-    if (a > b)
-        cout << "a es mayor que b\n";
-    else
-        cout << "a es menor o igual que b\n";
+    result = (a != b);  // true
+    cout << "3 != 5 es " << result << endl;
 
-    // mayor o igual
-    if (a >= b)
-        cout << "a es mayor o igual que b\n";
-    else
-        cout << "a es menor que b\n";
+    result = a > b;   // false
+    cout << "3 > 5 es " << result << endl;
 
-    // menor que
-    if (a < b)
-        cout << "a es menor que b\n";
-    else
-        cout << "a es mayor o igual que b\n";
+    result = a < b;   // true
+    cout << "3 < 5 es " << result << endl;
 
-    // menor o igual que
-    if (a <= b)
-        cout << "a es menor o igual que b\n";
-    else
-        cout << "a es mayor que b\n";
+    result = a >= b;  // false
+    cout << "3 >= 5 es " << result << endl;
 
-    // igual a
-    if (a == b)
-        cout << "a es igual que b\n";
-    else
-        cout << "a y b son diferentes\n";
-
-    // diferentes que
-    if (a != b)
-        cout << "a es diferente que b\n";
-    else
-        cout << "a es igual que b\n";
+    result = a <= b;  // true
+    cout << "3 <= 5 es " << result << endl;
 
     return 0;
 }
